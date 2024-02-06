@@ -47,3 +47,47 @@ body {
 .input {
   display: flex;
 }
+
+.card {
+  width: 200px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.imgContainer > img {
+  width: 100%;
+  height: 120px;
+}
+
+.business {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.imgContainer{
+  width: 100%;
+}
+
+.card > div > p {
+  font-size: .6rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.card > div > span {
+  font-size: .6rem;
+  text-align: center;
+}
+
+.btn {
+  padding: 5px 3px;
+  font-size: .8rem;
+  border-radius: 5px;
+}
+
+.btnDark {
+  background-color: black;
+  color: white;
+}
